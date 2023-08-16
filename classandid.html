@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>class and id</title>
+        <style>
+         .A{
+            background-color: blueviolet;
+            text-align: center;
+         }
+         #B{
+            background-color: cadetblue;
+            text-align: center;
+         }
+        </style>
+    </head>
+    <body>
+        <div class="A">
+            <h1>This is a class</h1>
+            <p>Class is used for rework purpose</p>
+        </div>
+        <div class="A">
+            <h1>This is a Duplicate of class</h1>
+            <p>Class is used for rework purpose</p>
+        </div>
+        <div class="A">
+            <h1>This is a Duplicate of class</h1>
+            <p>Class is used for rework purpose</p>
+        </div>
+        <div id="B">
+            <h1>This is ID</h1>
+            <p>we can't create the same id because  id can't be duplicate</p>
+        </div>
+        <div class="A">
+        <h1>Enter to Javascript</h1>
+        <p id="demo"></p>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Cleck here to display Date and Time</button>
+        </div>  
+        <div class="A">  
+        <button type="button" onclick="myFunction()">Click me</button>
+         <p id="ad">Hii everey one</p>
+        </div>
+        <script>
+            function myFunction(){
+                document.getElementById("ad").innerHTML="hello how are you"
+            }
+         </script>
+    </body>
+</html>
